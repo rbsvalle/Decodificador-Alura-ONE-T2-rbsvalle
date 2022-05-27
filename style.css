@@ -1,0 +1,61 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+body {
+    background-color: #F3F5FC;
+}
+
+.main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto {
+    margin-top: 19px;
+    border-radius: 10px;
+}
+
+.mensagem {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-image: url("imagens/boneca.png");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Criptografar {
+    background-color: #0A3871;
+    color: white;
+    border-radius: 10px;
+}
+
+.Descriptografar {
+    margin-left: 50px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-radius: 10px;
+
+}
+
+.informacao {
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.assinatura {
+    font-size: 11px;
+    margin-top: 5px;
+}
